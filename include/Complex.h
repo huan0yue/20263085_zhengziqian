@@ -25,7 +25,7 @@ public:
     // 构造函数
     // 支持三种写法：Complex z;  Complex z(3);  Complex z(3, 4);
     // TODO(2): 实现时请使用初始化列表
-    Complex(double r = 0.0, double i = 0.0);
+    Complex(double r = 0.0, double i = 0.0) : real(r),imag(i) {};
 
     // 析构函数
     // TODO(3): 实现析构函数
