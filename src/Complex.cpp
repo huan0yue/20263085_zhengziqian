@@ -26,10 +26,9 @@ Complex::~Complex() {
 
 // TODO(4): 复数相加
 Complex Complex::operator+(const Complex& other) const {
-    (void)other;
-    return Complex();  // 占位，实现后删掉
+    return Complex(real + other.real,imag + other.imag);
+ 
 }
-
 // TODO(5): 复数相减
 Complex Complex::operator-(const Complex& other) const {
     (void)other;
