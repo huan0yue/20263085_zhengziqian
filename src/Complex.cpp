@@ -51,5 +51,5 @@ double Complex::getReal() const {
 
 // TODO(8)
 double Complex::getImag() const {
-    return 0;  // 占位
+    return imag;  
 }
