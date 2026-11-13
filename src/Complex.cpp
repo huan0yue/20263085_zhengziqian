@@ -46,7 +46,7 @@ void Complex::print() const {
 
 // TODO(7)
 double Complex::getReal() const {
-    return 0;  // 占位
+    return real;  
 }
 
 // TODO(8)
